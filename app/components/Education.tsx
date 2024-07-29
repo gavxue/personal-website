@@ -9,7 +9,7 @@ export default function Education() {
                     <p className="ml-3">&#x2022; Awarded the René Descartes National Mathematics Scholarship ($20,000)</p>
                 </div>
                 <div className="my-auto">
-                    <p>2023-2028</p>
+                    <p>2023 - 2028</p>
                 </div>
             </div>
         </section>
