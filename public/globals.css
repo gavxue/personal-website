@@ -18,6 +18,10 @@ body {
   color: var(--primary);
 }
 
+header {
+  height: 350px;
+}
+
 /* @layer utilities {
   .text-balance {
     text-wrap: balance;

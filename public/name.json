@@ -1,0 +1,1941 @@
+{
+    "v": "5.5.2",
+    "meta": {
+        "a": "SVGator",
+        "d": "SVGator, the ultimate SVG animation generator now supports Lottie: a thoughtfully designed, intuitive interface, right at your fingertips.",
+        "g": "Made in SVGator (https://www.svgator.com/)"
+    },
+    "metadata": {
+        "filename": "name.json",
+        "customProps": {
+            "k": [
+                "SVGator",
+                "svgator",
+                "lottie animation",
+                "svg animation",
+                "lottie",
+                "svg"
+            ],
+            "version": 1,
+            "app": "https://app.svgator.com/editor#/964f57a251984986a54740f99d776094",
+            "site": "https://www.svgator.com/",
+            "date": "2024-08-01T15:24:15.492Z",
+            "exportId": "06996a215d6b46f295679cef5e43e87c",
+            "cached": "false"
+        }
+    },
+    "nm": "name",
+    "ddd": 0,
+    "assets": [
+        {
+            "id": "asset_0",
+            "p": "data:image/png;base64,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",
+            "w": 351,
+            "h": 99,
+            "nm": "",
+            "u": "",
+            "e": 1,
+            "t": ""
+        }
+    ],
+    "w": 351,
+    "h": 99,
+    "ip": 0,
+    "op": 300,
+    "fr": 100,
+    "fonts": {
+        "list": []
+    },
+    "layers": [
+        {
+            "ty": 4,
+            "st": 0,
+            "ip": 0,
+            "op": 300,
+            "ks": {
+                "a": {
+                    "a": 0,
+                    "k": [
+                        148.301806,
+                        47.543735
+                    ]
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        152.781691,
+                        48.8612
+                    ]
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        100,
+                        100
+                    ]
+                },
+                "r": {
+                    "a": 0,
+                    "k": 0
+                },
+                "o": {
+                    "a": 0,
+                    "k": 100
+                },
+                "sk": {
+                    "a": 0,
+                    "k": 0
+                },
+                "sa": {
+                    "a": 0,
+                    "k": 0
+                }
+            },
+            "shapes": [
+                {
+                    "ty": "sh",
+                    "ks": {
+                        "a": 0,
+                        "k": {
+                            "v": [
+                                [
+                                    147.515591,
+                                    48.182535
+                                ],
+                                [
+                                    149.088021,
+                                    46.904935
+                                ]
+                            ],
+                            "i": [
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    0,
+                                    0
+                                ]
+                            ],
+                            "o": [
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    0,
+                                    0
+                                ]
+                            ],
+                            "c": false
+                        }
+                    },
+                    "hd": false,
+                    "bm": 0,
+                    "ln": ""
+                },
+                {
+                    "ty": "st",
+                    "o": {
+                        "a": 0,
+                        "k": 100
+                    },
+                    "w": {
+                        "a": 0,
+                        "k": 2
+                    },
+                    "c": {
+                        "a": 0,
+                        "k": [
+                            0.207843,
+                            0.133333,
+                            0.031373
+                        ]
+                    },
+                    "hd": false,
+                    "bm": 0,
+                    "ln": "",
+                    "lc": 2,
+                    "lj": 2,
+                    "ml": 4,
+                    "ml2": {
+                        "a": 0,
+                        "k": 0
+                    },
+                    "d": [
+                        {
+                            "n": "d",
+                            "nm": "dash 0",
+                            "v": {
+                                "a": 0,
+                                "k": 2.03
+                            }
+                        },
+                        {
+                            "n": "o",
+                            "nm": "offset",
+                            "v": {
+                                "a": 1,
+                                "k": [
+                                    {
+                                        "t": 180,
+                                        "s": [
+                                            2.03
+                                        ],
+                                        "i": {
+                                            "x": 1,
+                                            "y": 1
+                                        },
+                                        "o": {
+                                            "x": 0,
+                                            "y": 0
+                                        },
+                                        "h": 0
+                                    },
+                                    {
+                                        "t": 200,
+                                        "s": [
+                                            0
+                                        ],
+                                        "i": {
+                                            "x": 1,
+                                            "y": 1
+                                        },
+                                        "o": {
+                                            "x": 0,
+                                            "y": 0
+                                        },
+                                        "h": 0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "hd": false,
+            "bm": 0,
+            "ln": "",
+            "ao": 0,
+            "hasMask": false,
+            "tt": 0,
+            "td": 0,
+            "tp": 0
+        },
+        {
+            "ty": 4,
+            "st": 0,
+            "ip": 0,
+            "op": 300,
+            "ks": {
+                "a": {
+                    "a": 0,
+                    "k": [
+                        295.798176,
+                        62.060369
+                    ]
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        295.798177,
+                        62.060371
+                    ]
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        100,
+                        100
+                    ]
+                },
+                "r": {
+                    "a": 0,
+                    "k": 0
+                },
+                "o": {
+                    "a": 0,
+                    "k": 100
+                },
+                "sk": {
+                    "a": 0,
+                    "k": 0
+                },
+                "sa": {
+                    "a": 0,
+                    "k": 0
+                }
+            },
+            "shapes": [
+                {
+                    "ty": "sh",
+                    "ks": {
+                        "a": 0,
+                        "k": {
+                            "v": [
+                                [
+                                    288.749444,
+                                    56.281606
+                                ],
+                                [
+                                    285.046209,
+                                    68.324603
+                                ],
+                                [
+                                    307.717233,
+                                    55.679409
+                                ],
+                                [
+                                    321.536621,
+                                    60.330243
+                                ],
+                                [
+                                    331.381807,
+                                    53.845593
+                                ],
+                                [
+                                    318.285,
+                                    64.44072
+                                ],
+                                [
+                                    321.536621,
+                                    69.176478
+                                ],
+                                [
+                                    337.61408,
+                                    61.731036
+                                ]
+                            ],
+                            "i": [
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    -4.064526,
+                                    -1.987102
+                                ],
+                                [
+                                    -0.270968,
+                                    -0.602197
+                                ],
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    -1.62581,
+                                    6.656528
+                                ],
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    -4.787109,
+                                    0.851875
+                                ],
+                                [
+                                    -8.129053,
+                                    4.974209
+                                ]
+                            ],
+                            "o": [
+                                [
+                                    0,
+                                    0.000001
+                                ],
+                                [
+                                    4.064526,
+                                    1.987102
+                                ],
+                                [
+                                    -4.877432,
+                                    15.264553
+                                ],
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    -7.135502,
+                                    -1.907971
+                                ],
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    4.787109,
+                                    -0.851875
+                                ],
+                                [
+                                    8.129053,
+                                    -4.97421
+                                ]
+                            ],
+                            "c": false
+                        }
+                    },
+                    "hd": false,
+                    "bm": 0,
+                    "ln": ""
+                },
+                {
+                    "ty": "st",
+                    "o": {
+                        "a": 0,
+                        "k": 100
+                    },
+                    "w": {
+                        "a": 0,
+                        "k": 2
+                    },
+                    "c": {
+                        "a": 0,
+                        "k": [
+                            0.207843,
+                            0.133333,
+                            0.031373
+                        ]
+                    },
+                    "hd": false,
+                    "bm": 0,
+                    "ln": "",
+                    "lc": 2,
+                    "lj": 2,
+                    "ml": 4,
+                    "ml2": {
+                        "a": 0,
+                        "k": 0
+                    },
+                    "d": [
+                        {
+                            "n": "d",
+                            "nm": "dash 0",
+                            "v": {
+                                "a": 0,
+                                "k": 120.33
+                            }
+                        },
+                        {
+                            "n": "o",
+                            "nm": "offset",
+                            "v": {
+                                "a": 1,
+                                "k": [
+                                    {
+                                        "t": 250,
+                                        "s": [
+                                            120.33
+                                        ],
+                                        "i": {
+                                            "x": 1,
+                                            "y": 1
+                                        },
+                                        "o": {
+                                            "x": 0,
+                                            "y": 0
+                                        },
+                                        "h": 0
+                                    },
+                                    {
+                                        "t": 300,
+                                        "s": [
+                                            0
+                                        ],
+                                        "i": {
+                                            "x": 1,
+                                            "y": 1
+                                        },
+                                        "o": {
+                                            "x": 0,
+                                            "y": 0
+                                        },
+                                        "h": 0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "hd": false,
+            "bm": 0,
+            "ln": "",
+            "ao": 0,
+            "hasMask": false,
+            "tt": 0,
+            "td": 0,
+            "tp": 0
+        },
+        {
+            "ty": 4,
+            "st": 0,
+            "ip": 0,
+            "op": 300,
+            "ks": {
+                "a": {
+                    "a": 0,
+                    "k": [
+                        288.478476,
+                        56.281607
+                    ]
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        288.478476,
+                        56.281607
+                    ]
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        100,
+                        100
+                    ]
+                },
+                "r": {
+                    "a": 0,
+                    "k": 0
+                },
+                "o": {
+                    "a": 0,
+                    "k": 100
+                },
+                "sk": {
+                    "a": 0,
+                    "k": 0
+                },
+                "sa": {
+                    "a": 0,
+                    "k": 0
+                }
+            },
+            "shapes": [
+                {
+                    "ty": "sh",
+                    "ks": {
+                        "a": 0,
+                        "k": {
+                            "v": [
+                                [
+                                    288.478476,
+                                    56.281607
+                                ]
+                            ],
+                            "i": [
+                                [
+                                    0,
+                                    0
+                                ]
+                            ],
+                            "o": [
+                                [
+                                    -4.696786,
+                                    8.068793
+                                ]
+                            ],
+                            "c": false
+                        }
+                    },
+                    "hd": false,
+                    "bm": 0,
+                    "ln": ""
+                },
+                {
+                    "ty": "st",
+                    "o": {
+                        "a": 0,
+                        "k": 100
+                    },
+                    "w": {
+                        "a": 0,
+                        "k": 2
+                    },
+                    "c": {
+                        "a": 0,
+                        "k": [
+                            0.207843,
+                            0.133333,
+                            0.031373
+                        ]
+                    },
+                    "hd": false,
+                    "bm": 0,
+                    "ln": "",
+                    "lc": 2,
+                    "lj": 2,
+                    "ml": 4,
+                    "ml2": {
+                        "a": 0,
+                        "k": 0
+                    },
+                    "d": [
+                        {
+                            "n": "o",
+                            "nm": "offset",
+                            "v": {
+                                "a": 0,
+                                "k": 0
+                            }
+                        }
+                    ]
+                }
+            ],
+            "hd": false,
+            "bm": 0,
+            "ln": "",
+            "ao": 0,
+            "hasMask": false,
+            "tt": 0,
+            "td": 0,
+            "tp": 0
+        },
+        {
+            "ty": 4,
+            "st": 0,
+            "ip": 0,
+            "op": 300,
+            "ks": {
+                "a": {
+                    "a": 0,
+                    "k": [
+                        236.155148,
+                        50.742932
+                    ]
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        236.155148,
+                        50.742932
+                    ]
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        100,
+                        100
+                    ]
+                },
+                "r": {
+                    "a": 0,
+                    "k": 0
+                },
+                "o": {
+                    "a": 0,
+                    "k": 100
+                },
+                "sk": {
+                    "a": 0,
+                    "k": 0
+                },
+                "sa": {
+                    "a": 0,
+                    "k": 0
+                }
+            },
+            "shapes": [
+                {
+                    "ty": "sh",
+                    "ks": {
+                        "a": 0,
+                        "k": {
+                            "v": [
+                                [
+                                    283.879121,
+                                    22.373635
+                                ],
+                                [
+                                    287.906444,
+                                    16.397449
+                                ],
+                                [
+                                    184.403852,
+                                    85.088415
+                                ]
+                            ],
+                            "i": [
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    -0.703124,
+                                    -0.890624
+                                ],
+                                [
+                                    111.406987,
+                                    -58.842427
+                                ]
+                            ],
+                            "o": [
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    0.703124,
+                                    0.890624
+                                ],
+                                [
+                                    -111.406986,
+                                    58.842427
+                                ]
+                            ],
+                            "c": false
+                        }
+                    },
+                    "hd": false,
+                    "bm": 0,
+                    "ln": ""
+                },
+                {
+                    "ty": "st",
+                    "o": {
+                        "a": 0,
+                        "k": 100
+                    },
+                    "w": {
+                        "a": 0,
+                        "k": 2
+                    },
+                    "c": {
+                        "a": 0,
+                        "k": [
+                            0.207843,
+                            0.133333,
+                            0.031373
+                        ]
+                    },
+                    "hd": false,
+                    "bm": 0,
+                    "ln": "",
+                    "lc": 2,
+                    "lj": 2,
+                    "ml": 4,
+                    "ml2": {
+                        "a": 0,
+                        "k": 0
+                    },
+                    "d": [
+                        {
+                            "n": "d",
+                            "nm": "dash 0",
+                            "v": {
+                                "a": 0,
+                                "k": 133.63
+                            }
+                        },
+                        {
+                            "n": "o",
+                            "nm": "offset",
+                            "v": {
+                                "a": 1,
+                                "k": [
+                                    {
+                                        "t": 220.00000000000003,
+                                        "s": [
+                                            133.63
+                                        ],
+                                        "i": {
+                                            "x": 1,
+                                            "y": 1
+                                        },
+                                        "o": {
+                                            "x": 0,
+                                            "y": 0
+                                        },
+                                        "h": 0
+                                    },
+                                    {
+                                        "t": 250,
+                                        "s": [
+                                            0
+                                        ],
+                                        "i": {
+                                            "x": 1,
+                                            "y": 1
+                                        },
+                                        "o": {
+                                            "x": 0,
+                                            "y": 0
+                                        },
+                                        "h": 0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "hd": false,
+            "bm": 0,
+            "ln": "",
+            "ao": 0,
+            "hasMask": false,
+            "tt": 0,
+            "td": 0,
+            "tp": 0
+        },
+        {
+            "ty": 4,
+            "st": 0,
+            "ip": 0,
+            "op": 300,
+            "ks": {
+                "a": {
+                    "a": 0,
+                    "k": [
+                        247.989781,
+                        55.448011
+                    ]
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        247.989781,
+                        55.448011
+                    ]
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        100,
+                        100
+                    ]
+                },
+                "r": {
+                    "a": 0,
+                    "k": 0
+                },
+                "o": {
+                    "a": 0,
+                    "k": 100
+                },
+                "sk": {
+                    "a": 0,
+                    "k": 0
+                },
+                "sa": {
+                    "a": 0,
+                    "k": 0
+                }
+            },
+            "shapes": [
+                {
+                    "ty": "sh",
+                    "ks": {
+                        "a": 0,
+                        "k": {
+                            "v": [
+                                [
+                                    228.104477,
+                                    22.373635
+                                ],
+                                [
+                                    267.875085,
+                                    88.522387
+                                ],
+                                [
+                                    286.707767,
+                                    86.35733
+                                ]
+                            ],
+                            "i": [
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    -16.105452,
+                                    -4.35369
+                                ],
+                                [
+                                    0,
+                                    0
+                                ]
+                            ],
+                            "o": [
+                                [
+                                    0,
+                                    0.164342
+                                ],
+                                [
+                                    9.367457,
+                                    6.161445
+                                ],
+                                [
+                                    0,
+                                    0
+                                ]
+                            ],
+                            "c": false
+                        }
+                    },
+                    "hd": false,
+                    "bm": 0,
+                    "ln": ""
+                },
+                {
+                    "ty": "st",
+                    "o": {
+                        "a": 0,
+                        "k": 100
+                    },
+                    "w": {
+                        "a": 0,
+                        "k": 2
+                    },
+                    "c": {
+                        "a": 0,
+                        "k": [
+                            0.207843,
+                            0.133333,
+                            0.031373
+                        ]
+                    },
+                    "hd": false,
+                    "bm": 0,
+                    "ln": "",
+                    "lc": 2,
+                    "lj": 2,
+                    "ml": 4,
+                    "ml2": {
+                        "a": 0,
+                        "k": 0
+                    },
+                    "d": [
+                        {
+                            "n": "d",
+                            "nm": "dash 0",
+                            "v": {
+                                "a": 0,
+                                "k": 99.14
+                            }
+                        },
+                        {
+                            "n": "o",
+                            "nm": "offset",
+                            "v": {
+                                "a": 1,
+                                "k": [
+                                    {
+                                        "t": 200,
+                                        "s": [
+                                            99.14
+                                        ],
+                                        "i": {
+                                            "x": 1,
+                                            "y": 1
+                                        },
+                                        "o": {
+                                            "x": 0,
+                                            "y": 0
+                                        },
+                                        "h": 0
+                                    },
+                                    {
+                                        "t": 220.00000000000003,
+                                        "s": [
+                                            0
+                                        ],
+                                        "i": {
+                                            "x": 1,
+                                            "y": 1
+                                        },
+                                        "o": {
+                                            "x": 0,
+                                            "y": 0
+                                        },
+                                        "h": 0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "hd": false,
+            "bm": 0,
+            "ln": "",
+            "ao": 0,
+            "hasMask": false,
+            "tt": 0,
+            "td": 0,
+            "tp": 0
+        },
+        {
+            "ty": 4,
+            "st": 0,
+            "ip": 0,
+            "op": 300,
+            "ks": {
+                "a": {
+                    "a": 0,
+                    "k": [
+                        100.408386,
+                        60.194101
+                    ]
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        100.408388,
+                        60.194102
+                    ]
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        100,
+                        100
+                    ]
+                },
+                "r": {
+                    "a": 0,
+                    "k": 0
+                },
+                "o": {
+                    "a": 0,
+                    "k": 100
+                },
+                "sk": {
+                    "a": 0,
+                    "k": 0
+                },
+                "sa": {
+                    "a": 0,
+                    "k": 0
+                }
+            },
+            "shapes": [
+                {
+                    "ty": "sh",
+                    "ks": {
+                        "a": 0,
+                        "k": {
+                            "v": [
+                                [
+                                    110.321792,
+                                    56.281606
+                                ],
+                                [
+                                    107.020515,
+                                    53.845594
+                                ],
+                                [
+                                    97.116683,
+                                    58.247296
+                                ],
+                                [
+                                    90.501855,
+                                    66.421886
+                                ],
+                                [
+                                    106.4703,
+                                    58.325898
+                                ],
+                                [
+                                    123.605499,
+                                    54.788815
+                                ],
+                                [
+                                    116.621102,
+                                    67.899081
+                                ],
+                                [
+                                    138.375564,
+                                    53.614053
+                                ],
+                                [
+                                    133.771635,
+                                    63.757068
+                                ],
+                                [
+                                    149.974924,
+                                    52.919888
+                                ],
+                                [
+                                    143.225474,
+                                    67.469927
+                                ],
+                                [
+                                    160.499099,
+                                    54.788816
+                                ],
+                                [
+                                    156.019213,
+                                    67.469927
+                                ],
+                                [
+                                    168.036683,
+                                    56.756829
+                                ],
+                                [
+                                    168.534448,
+                                    67.469927
+                                ],
+                                [
+                                    176.996453,
+                                    64.440721
+                                ]
+                            ],
+                            "i": [
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    2.751064,
+                                    -0.471611
+                                ],
+                                [
+                                    3.537082,
+                                    -2.829666
+                                ],
+                                [
+                                    -1.58431,
+                                    -0.471611
+                                ],
+                                [
+                                    -2.436657,
+                                    2.358054
+                                ],
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    -2.98038,
+                                    -1.477195
+                                ],
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    -1.552346,
+                                    -4.971609
+                                ],
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    -2.812105,
+                                    0.429154
+                                ],
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    0,
+                                    -2.598377
+                                ],
+                                [
+                                    -1.372154,
+                                    -0.738829
+                                ],
+                                [
+                                    0.426656,
+                                    -2.532569
+                                ],
+                                [
+                                    0,
+                                    0
+                                ]
+                            ],
+                            "o": [
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    -2.751064,
+                                    0.471611
+                                ],
+                                [
+                                    -3.537082,
+                                    2.829666
+                                ],
+                                [
+                                    1.58431,
+                                    0.471611
+                                ],
+                                [
+                                    -4.558906,
+                                    15.641763
+                                ],
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    4.81639,
+                                    1.277398
+                                ],
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    4.337681,
+                                    2.908269
+                                ],
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    1.970336,
+                                    0.854677
+                                ],
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    2.096677,
+                                    -3.01215
+                                ],
+                                [
+                                    3.626574,
+                                    0.571836
+                                ],
+                                [
+                                    0.439089,
+                                    2.031948
+                                ],
+                                [
+                                    0,
+                                    0
+                                ]
+                            ],
+                            "c": false
+                        }
+                    },
+                    "hd": false,
+                    "bm": 0,
+                    "ln": ""
+                },
+                {
+                    "ty": "st",
+                    "o": {
+                        "a": 0,
+                        "k": 100
+                    },
+                    "w": {
+                        "a": 0,
+                        "k": 2
+                    },
+                    "c": {
+                        "a": 0,
+                        "k": [
+                            0.207843,
+                            0.133333,
+                            0.031373
+                        ]
+                    },
+                    "hd": false,
+                    "bm": 0,
+                    "ln": "",
+                    "lc": 2,
+                    "lj": 2,
+                    "ml": 4,
+                    "ml2": {
+                        "a": 0,
+                        "k": 0
+                    },
+                    "d": [
+                        {
+                            "n": "d",
+                            "nm": "dash 0",
+                            "v": {
+                                "a": 0,
+                                "k": 250.48
+                            }
+                        },
+                        {
+                            "n": "o",
+                            "nm": "offset",
+                            "v": {
+                                "a": 1,
+                                "k": [
+                                    {
+                                        "t": 100,
+                                        "s": [
+                                            250.48
+                                        ],
+                                        "i": {
+                                            "x": 1,
+                                            "y": 1
+                                        },
+                                        "o": {
+                                            "x": 0,
+                                            "y": 0
+                                        },
+                                        "h": 0
+                                    },
+                                    {
+                                        "t": 180,
+                                        "s": [
+                                            0
+                                        ],
+                                        "i": {
+                                            "x": 1,
+                                            "y": 1
+                                        },
+                                        "o": {
+                                            "x": 0,
+                                            "y": 0
+                                        },
+                                        "h": 0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "hd": false,
+            "bm": 0,
+            "ln": "",
+            "ao": 0,
+            "hasMask": false,
+            "tt": 0,
+            "td": 0,
+            "tp": 0
+        },
+        {
+            "ty": 4,
+            "st": 0,
+            "ip": 0,
+            "op": 300,
+            "ks": {
+                "a": {
+                    "a": 0,
+                    "k": [
+                        77.034871,
+                        56.281605
+                    ]
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        77.034871,
+                        56.281606
+                    ]
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        100,
+                        100
+                    ]
+                },
+                "r": {
+                    "a": 0,
+                    "k": 0
+                },
+                "o": {
+                    "a": 0,
+                    "k": 100
+                },
+                "sk": {
+                    "a": 0,
+                    "k": 0
+                },
+                "sa": {
+                    "a": 0,
+                    "k": 0
+                }
+            },
+            "shapes": [
+                {
+                    "ty": "sh",
+                    "ks": {
+                        "a": 0,
+                        "k": {
+                            "v": [
+                                [
+                                    55.184884,
+                                    63.063211
+                                ],
+                                [
+                                    98.884858,
+                                    49.5
+                                ]
+                            ],
+                            "i": [
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    -24.084358,
+                                    4.626333
+                                ]
+                            ],
+                            "o": [
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    24.084358,
+                                    -4.626333
+                                ]
+                            ],
+                            "c": false
+                        }
+                    },
+                    "hd": false,
+                    "bm": 0,
+                    "ln": ""
+                },
+                {
+                    "ty": "st",
+                    "o": {
+                        "a": 0,
+                        "k": 100
+                    },
+                    "w": {
+                        "a": 0,
+                        "k": 2
+                    },
+                    "c": {
+                        "a": 0,
+                        "k": [
+                            0.207843,
+                            0.133333,
+                            0.031373
+                        ]
+                    },
+                    "hd": false,
+                    "bm": 0,
+                    "ln": "",
+                    "lc": 2,
+                    "lj": 2,
+                    "ml": 4,
+                    "ml2": {
+                        "a": 0,
+                        "k": 0
+                    },
+                    "d": [
+                        {
+                            "n": "d",
+                            "nm": "dash 0",
+                            "v": {
+                                "a": 0,
+                                "k": 45.87
+                            }
+                        },
+                        {
+                            "n": "o",
+                            "nm": "offset",
+                            "v": {
+                                "a": 1,
+                                "k": [
+                                    {
+                                        "t": 70,
+                                        "s": [
+                                            45.87
+                                        ],
+                                        "i": {
+                                            "x": 1,
+                                            "y": 1
+                                        },
+                                        "o": {
+                                            "x": 0,
+                                            "y": 0
+                                        },
+                                        "h": 0
+                                    },
+                                    {
+                                        "t": 100,
+                                        "s": [
+                                            0
+                                        ],
+                                        "i": {
+                                            "x": 1,
+                                            "y": 1
+                                        },
+                                        "o": {
+                                            "x": 0,
+                                            "y": 0
+                                        },
+                                        "h": 0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "hd": false,
+            "bm": 0,
+            "ln": "",
+            "ao": 0,
+            "hasMask": false,
+            "tt": 0,
+            "td": 0,
+            "tp": 0
+        },
+        {
+            "ty": 4,
+            "st": 0,
+            "ip": 0,
+            "op": 300,
+            "ks": {
+                "a": {
+                    "a": 0,
+                    "k": [
+                        72.996864,
+                        69.17648
+                    ]
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        72.996865,
+                        69.17648
+                    ]
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        100,
+                        100
+                    ]
+                },
+                "r": {
+                    "a": 0,
+                    "k": 0
+                },
+                "o": {
+                    "a": 0,
+                    "k": 100
+                },
+                "sk": {
+                    "a": 0,
+                    "k": 0
+                },
+                "sa": {
+                    "a": 0,
+                    "k": 0
+                }
+            },
+            "shapes": [
+                {
+                    "ty": "sh",
+                    "ks": {
+                        "a": 0,
+                        "k": {
+                            "v": [
+                                [
+                                    84.243088,
+                                    50.059088
+                                ],
+                                [
+                                    61.750641,
+                                    88.293872
+                                ]
+                            ],
+                            "i": [
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    0,
+                                    -5.672007
+                                ]
+                            ],
+                            "o": [
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    0,
+                                    5.672007
+                                ]
+                            ],
+                            "c": false
+                        }
+                    },
+                    "hd": false,
+                    "bm": 0,
+                    "ln": ""
+                },
+                {
+                    "ty": "st",
+                    "o": {
+                        "a": 0,
+                        "k": 100
+                    },
+                    "w": {
+                        "a": 0,
+                        "k": 2
+                    },
+                    "c": {
+                        "a": 0,
+                        "k": [
+                            0.207843,
+                            0.133333,
+                            0.031373
+                        ]
+                    },
+                    "hd": false,
+                    "bm": 0,
+                    "ln": "",
+                    "lc": 2,
+                    "lj": 2,
+                    "ml": 4,
+                    "ml2": {
+                        "a": 0,
+                        "k": 0
+                    },
+                    "d": [
+                        {
+                            "n": "d",
+                            "nm": "dash 0",
+                            "v": {
+                                "a": 0,
+                                "k": 44.57
+                            }
+                        },
+                        {
+                            "n": "o",
+                            "nm": "offset",
+                            "v": {
+                                "a": 1,
+                                "k": [
+                                    {
+                                        "t": 50,
+                                        "s": [
+                                            44.57
+                                        ],
+                                        "i": {
+                                            "x": 1,
+                                            "y": 1
+                                        },
+                                        "o": {
+                                            "x": 0,
+                                            "y": 0
+                                        },
+                                        "h": 0
+                                    },
+                                    {
+                                        "t": 70,
+                                        "s": [
+                                            0
+                                        ],
+                                        "i": {
+                                            "x": 1,
+                                            "y": 1
+                                        },
+                                        "o": {
+                                            "x": 0,
+                                            "y": 0
+                                        },
+                                        "h": 0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "hd": false,
+            "bm": 0,
+            "ln": "",
+            "ao": 0,
+            "hasMask": false,
+            "tt": 0,
+            "td": 0,
+            "tp": 0
+        },
+        {
+            "ty": 4,
+            "st": 0,
+            "ip": 0,
+            "op": 300,
+            "ks": {
+                "a": {
+                    "a": 0,
+                    "k": [
+                        55.184883,
+                        50.059086
+                    ]
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        55.184884,
+                        50.059088
+                    ]
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        100,
+                        100
+                    ]
+                },
+                "r": {
+                    "a": 0,
+                    "k": 0
+                },
+                "o": {
+                    "a": 0,
+                    "k": 100
+                },
+                "sk": {
+                    "a": 0,
+                    "k": 0
+                },
+                "sa": {
+                    "a": 0,
+                    "k": 0
+                }
+            },
+            "shapes": [
+                {
+                    "ty": "sh",
+                    "ks": {
+                        "a": 0,
+                        "k": {
+                            "v": [
+                                [
+                                    90.501856,
+                                    40.752577
+                                ],
+                                [
+                                    88.741578,
+                                    11.819548
+                                ],
+                                [
+                                    44.930201,
+                                    29.422333
+                                ],
+                                [
+                                    11.48491,
+                                    75.776334
+                                ],
+                                [
+                                    31.630318,
+                                    88.29387
+                                ],
+                                [
+                                    84.243087,
+                                    49.499999
+                                ]
+                            ],
+                            "i": [
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    27.773283,
+                                    -20.077667
+                                ],
+                                [
+                                    -1.760278,
+                                    -5.085249
+                                ],
+                                [
+                                    -14.473401,
+                                    1.955865
+                                ],
+                                [
+                                    -11.930777,
+                                    29.465819
+                                ]
+                            ],
+                            "o": [
+                                [
+                                    18.971891,
+                                    -27.38211
+                                ],
+                                [
+                                    0,
+                                    0
+                                ],
+                                [
+                                    -27.773283,
+                                    20.077667
+                                ],
+                                [
+                                    1.760278,
+                                    5.085249
+                                ],
+                                [
+                                    14.473401,
+                                    -1.955865
+                                ],
+                                [
+                                    11.930777,
+                                    -29.465819
+                                ]
+                            ],
+                            "c": false
+                        }
+                    },
+                    "hd": false,
+                    "bm": 0,
+                    "ln": ""
+                },
+                {
+                    "ty": "st",
+                    "o": {
+                        "a": 0,
+                        "k": 100
+                    },
+                    "w": {
+                        "a": 0,
+                        "k": 2
+                    },
+                    "c": {
+                        "a": 0,
+                        "k": [
+                            0.207843,
+                            0.133333,
+                            0.031373
+                        ]
+                    },
+                    "hd": false,
+                    "bm": 0,
+                    "ln": "",
+                    "lc": 2,
+                    "lj": 2,
+                    "ml": 4,
+                    "ml2": {
+                        "a": 0,
+                        "k": 0
+                    },
+                    "d": [
+                        {
+                            "n": "d",
+                            "nm": "dash 0",
+                            "v": {
+                                "a": 0,
+                                "k": 240.39
+                            }
+                        },
+                        {
+                            "n": "o",
+                            "nm": "offset",
+                            "v": {
+                                "a": 1,
+                                "k": [
+                                    {
+                                        "t": 0,
+                                        "s": [
+                                            240.39
+                                        ],
+                                        "i": {
+                                            "x": 1,
+                                            "y": 1
+                                        },
+                                        "o": {
+                                            "x": 0,
+                                            "y": 0
+                                        },
+                                        "h": 0
+                                    },
+                                    {
+                                        "t": 50,
+                                        "s": [
+                                            0
+                                        ],
+                                        "i": {
+                                            "x": 1,
+                                            "y": 1
+                                        },
+                                        "o": {
+                                            "x": 0,
+                                            "y": 0
+                                        },
+                                        "h": 0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "hd": false,
+            "bm": 0,
+            "ln": "",
+            "ao": 0,
+            "hasMask": false,
+            "tt": 0,
+            "td": 0,
+            "tp": 0
+        },
+        {
+            "ty": 2,
+            "st": 0,
+            "ip": 0,
+            "op": 300,
+            "ks": {
+                "a": {
+                    "a": 0,
+                    "k": [
+                        175.5,
+                        49.5
+                    ]
+                },
+                "p": {
+                    "a": 0,
+                    "k": [
+                        182.733826,
+                        49.5
+                    ]
+                },
+                "s": {
+                    "a": 0,
+                    "k": [
+                        100,
+                        100
+                    ]
+                },
+                "r": {
+                    "a": 0,
+                    "k": 0
+                },
+                "o": {
+                    "a": 0,
+                    "k": 100
+                },
+                "sk": {
+                    "a": 0,
+                    "k": 0
+                },
+                "sa": {
+                    "a": 0,
+                    "k": 0
+                }
+            },
+            "refId": "asset_0",
+            "hd": true,
+            "bm": 0,
+            "ln": "",
+            "ao": 0,
+            "hasMask": false,
+            "tt": 0,
+            "td": 0,
+            "tp": 0
+        }
+    ]
+}
