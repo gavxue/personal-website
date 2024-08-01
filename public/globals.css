@@ -22,8 +22,21 @@ header {
   height: 350px;
 }
 
-/* @layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-} */
+/* scrollbar */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--foreground-rgb);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
