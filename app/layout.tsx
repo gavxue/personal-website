@@ -2,6 +2,7 @@
 
 import { Inter } from "next/font/google";
 import Script from "next/script";
+import Head from "next/head"
 import { useEffect } from 'react'
 import AOS from "aos"
 
@@ -23,6 +24,9 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+      </Head>
       <Script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" />
       <body className={inter.className}>
         {children}
