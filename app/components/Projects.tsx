@@ -1,5 +1,5 @@
 
-import Link from "@/node_modules/next/link";
+import Link from "next/link";
 import { FiSearch } from "react-icons/fi";
 import { PiPlanetFill } from "react-icons/pi";
 import { TbFaceId } from "react-icons/tb";
