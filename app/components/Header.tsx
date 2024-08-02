@@ -3,10 +3,10 @@
 import Link from "next/link";
 import Lottie from "react-lottie-player";
 
-import name from "/public/name";
-import mailIcon from "/public/mail-icon";
-import linkedinIcon from "/public/linkedin-icon";
-import githubIcon from "/public/github-icon";
+import name from "/public/name.json";
+import mailIcon from "/public/mail-icon.json";
+import linkedinIcon from "/public/linkedin-icon.json";
+import githubIcon from "/public/github-icon.json";
 
 export default function Header() {
   return (
