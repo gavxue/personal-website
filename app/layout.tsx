@@ -26,7 +26,6 @@ export default function RootLayout({
     <html lang="en">
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       </Head>
       <Script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" />
       <body className={inter.className}>
