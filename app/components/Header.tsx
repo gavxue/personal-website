@@ -10,13 +10,12 @@ import githubIcon from "/public/github-icon.json";
 
 export default function Header() {
   return (
-    <header className="flex flex-col text-center my-60">
-      {/* <h1 className="text-8xl">Gavin Xue</h1> */}
+    <header className="flex flex-col text-center h-dvh justify-center">
       <Link href="" className="name hvr-icon-bob hvr-icon">
         <Lottie animationData={name} play loop={false} />
       </Link>
-      <div className="h-10 mt-10 flex justify-center gap-10 text-3xl">
-        <div className="h-10 flex gap-20">
+      <div className="h-7 lg:h-10 mt-10 flex justify-center gap-10">
+        <div className="flex gap-20">
           <Link
             href="mailto:gavinxue050705@gmail.com"
             className="w-full h-full icon-bounce"

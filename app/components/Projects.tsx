@@ -8,7 +8,7 @@ export default function Projects() {
     return (
         <section className="my-20" data-aos="fade-up">
             <h2 className="text-center text-4xl font-bold">Projects</h2>
-            <div className="grid grid-cols-3 my-5">
+            <div className="grid grid-cols-2 sm:grid-cols-3 my-5 gap-5">
                 <Link href="https://github.com/gavxue/broken-link-checker" className="hvr-grow" target="_blank" rel="noopener noreferrer">
                     <div data-aos="fade-up" data-aos-delay="100">
                         <FiSearch className="text-4xl" />
