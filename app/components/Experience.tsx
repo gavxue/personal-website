@@ -9,7 +9,7 @@ export default function Experience() {
                         <p>University of Waterloo - Department of Civil and Environmental Engineering</p>
                     </div>
                     <div className="my-auto">
-                        <p>May 2024 - Present</p>
+                        <p>May 2024 - Aug 2024</p>
                     </div>
                 </div>
             </div>
@@ -20,7 +20,7 @@ export default function Experience() {
                         <p>UW Mathematics Society</p>
                     </div>
                     <div className="my-auto">
-                        <p>May 2024 - Present</p>
+                        <p>May 2024 - Aug 2024</p>
                     </div>
                 </div>
             </div>
@@ -35,7 +35,6 @@ export default function Experience() {
                     </div>
                 </div>
             </div>
-
         </section>
     )
 }
