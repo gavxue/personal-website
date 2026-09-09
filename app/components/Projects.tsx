@@ -18,8 +18,8 @@ export default function Projects() {
           <div data-aos="fade-up" data-aos-delay="100">
             <HiOutlineSparkles className="text-4xl" />
             <p className="font-bold">notefuse</p>
-            <p className="italic">Next.js, AWS S3, Pinecone</p>
-            <p>An AI-powered chatbot that assists with summarizing notes.</p>
+            <p className="italic">Next.js, LangChain, Pinecone, Redis, AWS S3</p>
+            <p>A RAG-based chatbot for analyzing and summarizing PDF notes.</p>
           </div>
         </Link>
         <Link

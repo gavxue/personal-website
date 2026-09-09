@@ -10,7 +10,7 @@ import Projects from "./components/Projects";
 export const metadata: Metadata = {
   title: "Gavin Xue",
   description:
-    "Nice to meet you, I'm Gavin. I'm a second year Computer Science student at the University of Waterloo. I enjoy applying modern technologies to solve complex problems.",
+    "Nice to meet you, I'm Gavin. I'm a third year Computer Science student at the University of Waterloo. I enjoy applying modern technologies to solve complex problems.",
 };
 
 export default function Home() {
