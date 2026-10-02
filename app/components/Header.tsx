@@ -1,7 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import Lottie from "react-lottie-player";
+import dynamic from "next/dynamic";
+
+// lottie-web touches `document` at import time, which breaks prerendering on Node 21+
+const Lottie = dynamic(() => import("react-lottie-player"), { ssr: false });
 
 import name from "/public/name.json";
 import mailIcon from "/public/mail-icon.json";
